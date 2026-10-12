@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Data Science Laboratory · Interactive Digital Lab Record</title>
+  <meta name="description" content="Interactive digital laboratory record for the Data Science lab: modules, experiments, code demonstrations and tools." />
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <script defer src="https://unpkg.com/lucide@0.414.0/dist/umd/lucide.min.js"></script>
+</head>
+<body data-page="home" data-title="Home" data-crumb="Interactive Digital Lab Record">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div id="sidebar-root"></div>
+
+  <div class="app-main">
+    <div id="topbar-root"></div>
+
+    <main id="main" class="page">
+      <!-- ============================= HERO ============================= -->
+      <section class="hero" aria-label="Introduction">
+        <div class="card hero-intro">
+          <span class="eyebrow">Data Science Laboratory</span>
+          <h1>Interactive Digital Lab Record</h1>
+          <p class="subtitle">Explore, practise and record your laboratory work.</p>
+          <p class="lead">
+            Explore laboratory experiments, study the module material, watch code
+            demonstrations and practise programming in an interactive environment.
+            Every experiment loads its real source code straight from the
+            <code>DS-codes</code> folder into a full code editor.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="experiments.html">
+              <i data-lucide="flask-conical"></i> Explore Experiments
+            </a>
+            <a class="btn btn-secondary" href="modules.html">
+              <i data-lucide="library-big"></i> View Modules
+            </a>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <img src="assets/images/hero-illustration.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="card profile-card" aria-label="Student profile">
+          <div class="profile-head">
+            <img class="profile-avatar" src="assets/images/avatar.svg" alt="Avatar with the initials V S" />
+            <div>
+              <h2>E. Vidya Sagar</h2>
+              <div class="role">Student · Data Science</div>
+            </div>
+          </div>
+          <dl class="profile-meta">
+            <div class="profile-field"><dt>Student Name</dt><dd>E. Vidya Sagar</dd></div>
+            <div class="profile-field"><dt>Roll No</dt><dd>24102A030024</dd></div>
+            <div class="profile-field"><dt>Branch</dt><dd>Data Science</dd></div>
+            <div class="profile-field"><dt>Professor</dt><dd>S. Bosu Babu</dd></div>
+            <div class="profile-field"><dt>Subject Code</dt><dd>220DS24</dd></div>
+            <div class="profile-field"><dt>Subject</dt><dd>Data Science Laboratory</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <!-- ======================== STATISTICS ============================ -->
+      <section class="section" id="overview" aria-labelledby="stats-title">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">At a glance</div>
+            <h2 id="stats-title">Your laboratory at a glance</h2>
+            <p>Counts are generated automatically from the project data.</p>
+          </div>
+          <nav class="toolbar" aria-label="Jump to section">
+            <a class="btn btn-ghost btn-sm" href="#modules">Modules</a>
+            <a class="btn btn-ghost btn-sm" href="#experiments">Experiments</a>
+            <a class="btn btn-ghost btn-sm" href="#tools">Tools</a>
+          </nav>
+        </div>
+        <div class="stats">
+          <div class="card stat-card">
+            <div class="stat-icon"><i data-lucide="layers"></i></div>
+            <div class="stat-value" data-stat="modules">0</div>
+            <div class="stat-label">Total Modules</div>
+          </div>
+          <div class="card stat-card">
+            <div class="stat-icon"><i data-lucide="flask-conical"></i></div>
+            <div class="stat-value" data-stat="experiments">0</div>
+            <div class="stat-label">Total Experiments</div>
+          </div>
+          <div class="card stat-card">
+            <div class="stat-icon"><i data-lucide="git-branch"></i></div>
+            <div class="stat-value" data-stat="subexperiments">0</div>
+            <div class="stat-label">Total Sub-Experiments</div>
+          </div>
+          <div class="card stat-card">
+            <div class="stat-icon"><i data-lucide="file-code-2"></i></div>
+            <div class="stat-value" data-stat="code">0</div>
+            <div class="stat-label">Available Code Examples</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== WELCOME + QUICK ACCESS =================== -->
+      <section class="section" aria-labelledby="welcome-title">
+        <div class="card welcome">
+          <div class="welcome-badge"><i data-lucide="hand-heart"></i></div>
+          <div>
+            <h2 id="welcome-title">Welcome to your digital lab record</h2>
+            <p>
+              This portal replaces the traditional paper record. Pick a module to
+              read the study material, open an experiment to run through its
+              sub-experiments, or jump into the tools to practise. Your progress
+              and any modules you add are remembered in this browser.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid grid-3 mt-3">
+          <a class="card card-hover quick-link" href="experiments.html">
+            <div class="ql-icon"><i data-lucide="flask-conical"></i></div>
+            <div>
+              <h3>Experiments</h3>
+              <p>Browse every experiment and open its coding workspace.</p>
+            </div>
+          </a>
+          <a class="card card-hover quick-link" href="modules.html">
+            <div class="ql-icon"><i data-lucide="library-big"></i></div>
+            <div>
+              <h3>Modules</h3>
+              <p>Read module PDFs and add your own study material.</p>
+            </div>
+          </a>
+          <a class="card card-hover quick-link" href="tools.html">
+            <div class="ql-icon"><i data-lucide="wand-sparkles"></i></div>
+            <div>
+              <h3>Tools</h3>
+              <p>Code playground, JSON formatter, CSV converter, calculator.</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- =========================== MODULES =========================== -->
+      <section class="section" id="modules" aria-labelledby="modules-title">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Study material</div>
+            <h2 id="modules-title">Modules</h2>
+            <p>
+              Five study modules with PDF preview and download.
+              <strong>Sample titles</strong> are used because the official syllabus
+              was not supplied — edit them in <code>js/data.js</code>.
+            </p>
+          </div>
+          <button class="btn btn-primary" type="button" data-add-module>
+            <i data-lucide="plus"></i> Add Module
+          </button>
+        </div>
+        <div class="grid grid-auto" data-modules-grid data-modules-limit="5"></div>
+      </section>
+
+      <!-- ========================= EXPERIMENTS ========================= -->
+      <section class="section" id="experiments" aria-labelledby="experiments-title">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Laboratory work</div>
+            <h2 id="experiments-title">Experiments</h2>
+            <p>Each experiment contains several sub-experiments with their own workspace.</p>
+          </div>
+          <a class="btn btn-secondary" href="experiments.html">
+            <i data-lucide="arrow-right"></i> View all experiments
+          </a>
+        </div>
+        <div class="grid grid-3" data-experiments-grid data-experiments-limit="6"></div>
+      </section>
+
+      <!-- ========================= QUICK TOOLS ========================= -->
+      <section class="section" id="tools" aria-labelledby="tools-title">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Practice</div>
+            <h2 id="tools-title">Quick Tools</h2>
+            <p>Small utilities that run entirely in your browser.</p>
+          </div>
+          <a class="btn btn-secondary" href="tools.html"><i data-lucide="arrow-right"></i> Open all tools</a>
+        </div>
+        <div class="grid grid-3">
+          <a class="card card-hover quick-link" href="tools.html#playground">
+            <div class="ql-icon"><i data-lucide="square-terminal"></i></div>
+            <div><h3>Code Playground</h3><p>Write and run JavaScript in a sandboxed worker.</p></div>
+          </a>
+          <a class="card card-hover quick-link" href="tools.html#json">
+            <div class="ql-icon"><i data-lucide="braces"></i></div>
+            <div><h3>JSON Formatter</h3><p>Validate, format and minify JSON.</p></div>
+          </a>
+          <a class="card card-hover quick-link" href="tools.html#calculator">
+            <div class="ql-icon"><i data-lucide="calculator"></i></div>
+            <div><h3>Calculator</h3><p>A safe expression calculator.</p></div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <div id="footer-root"></div>
+  </div>
+
+  <!-- Shared + data scripts (order matters) -->
+  <script defer src="js/config.js"></script>
+  <script defer src="js/data.js"></script>
+  <script defer src="js/code-samples.js"></script>
+  <script defer src="js/utils.js"></script>
+  <script defer src="js/layout.js"></script>
+  <script defer src="js/navigation.js"></script>
+  <script defer src="js/runner.js"></script>
+  <script defer src="js/editor.js"></script>
+  <script defer src="js/modules.js"></script>
+  <script defer src="js/experiments.js"></script>
+  <script defer src="js/tools.js"></script>
+  <script defer src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1116 >>
+stream
+BT /F2 18 Tf 60 780 Td (Data Science Laboratory - Module 3) Tj ET
+BT /F1 11 Tf 60 750 Td (Interactive Digital Lab Record) Tj ET
+BT /F2 13 Tf 60 726 Td (SAMPLE / PLACEHOLDER DOCUMENT) Tj ET
+BT /F1 11 Tf 60 696 Td (This PDF is a generated placeholder created because the official module) Tj ET
+BT /F1 11 Tf 60 680 Td (material was not available when the website was built.) Tj ET
+BT /F2 12 Tf 60 656 Td (Title: Module 3 - Data Cleaning & Preprocessing) Tj ET
+BT /F2 11 Tf 60 634 Td (Description:) Tj ET
+BT /F1 11 Tf 60 616 Td (Missing values, duplicate removal, encoding, outliers and text cleaning.) Tj ET
+BT /F2 14 Tf 60 586 Td (REPLACE ME) Tj ET
+BT /F1 11 Tf 60 564 Td (Replace this file \(assets/pdfs/module-3.pdf\) with the official) Tj ET
+BT /F1 11 Tf 60 548 Td (college syllabus or study material for this module. The website layout) Tj ET
+BT /F1 11 Tf 60 532 Td (and viewer will keep working with any valid PDF file.) Tj ET
+BT /F1 10 Tf 60 502 Td (Student: E. Vidya Sagar  |  Roll No: 24102A030024  |  Branch: Data Science) Tj ET
+BT /F1 10 Tf 60 486 Td (Professor: S. Bosu Babu  |  Subject Code: 220DS24) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000001419 00000 n 
+0000001489 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1564
+%%EOF
